@@ -15,6 +15,9 @@
 		5D778339260C592300B05545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D778337260C592300B05545 /* LaunchScreen.storyboard */; };
 		5D778344260C592300B05545 /* Speedy_CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D778343260C592300B05545 /* Speedy_CarTests.swift */; };
 		5D77834F260C592300B05545 /* Speedy_CarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D77834E260C592300B05545 /* Speedy_CarUITests.swift */; };
+		5D778361260C593800B05545 /* Pixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D778360260C593800B05545 /* Pixel.swift */; };
+		5D77836E260C59D700B05545 /* Obstacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D77836D260C59D700B05545 /* Obstacle.swift */; };
+		5DED7D53260D9B8600463249 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DED7D52260D9B8600463249 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		5D77834A260C592300B05545 /* Speedy CarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Speedy CarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D77834E260C592300B05545 /* Speedy_CarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speedy_CarUITests.swift; sourceTree = "<group>"; };
 		5D778350260C592300B05545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D778360260C593800B05545 /* Pixel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixel.swift; sourceTree = "<group>"; };
+		5D77836D260C59D700B05545 /* Obstacle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obstacle.swift; sourceTree = "<group>"; };
+		5DED7D52260D9B8600463249 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		5D77832B260C592200B05545 /* Speedy Car */ = {
 			isa = PBXGroup;
 			children = (
+				5D77835F260C592D00B05545 /* Components */,
 				5D77832C260C592200B05545 /* AppDelegate.swift */,
 				5D77832E260C592200B05545 /* SceneDelegate.swift */,
 				5D778330260C592200B05545 /* ContentView.swift */,
@@ -134,6 +141,16 @@
 				5D778350260C592300B05545 /* Info.plist */,
 			);
 			path = "Speedy CarUITests";
+			sourceTree = "<group>";
+		};
+		5D77835F260C592D00B05545 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5D778360260C593800B05545 /* Pixel.swift */,
+				5D77836D260C59D700B05545 /* Obstacle.swift */,
+				5DED7D52260D9B8600463249 /* Car.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +283,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D778361260C593800B05545 /* Pixel.swift in Sources */,
 				5D77832D260C592200B05545 /* AppDelegate.swift in Sources */,
+				5D77836E260C59D700B05545 /* Obstacle.swift in Sources */,
 				5D77832F260C592200B05545 /* SceneDelegate.swift in Sources */,
 				5D778331260C592200B05545 /* ContentView.swift in Sources */,
+				5DED7D53260D9B8600463249 /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
